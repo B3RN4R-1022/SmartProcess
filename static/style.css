@@ -1,4 +1,4 @@
-/* style.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -26,8 +26,8 @@ main{
     width: 70%;
     display: flex;
     margin: 0 auto;
-    justify-content: center; /* Para centralizar horizontalmente */
-    align-items: center; /* Para centralizar verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 .link-box {
@@ -55,7 +55,7 @@ main{
     max-height: 100%;
     display: flex;
     flex-direction: column;
-    position: relative; /* Adicione esta linha */
+    position: relative; 
 }
 
 .chat-history {
@@ -95,7 +95,7 @@ main{
     background-color: #343444;
     position: absolute;
     bottom: 0px;
-    width: 100%; /* Alterado para 100% para ocupar toda a largura */
+    width: 100%; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,28 +117,28 @@ main{
 
 .api-key-icon {
     border:none;
-    border-radius: 50%; /* Isso tornará o botão redondo */
-    padding: 5px; /* Ajuste o preenchimento conforme necessário */
+    border-radius: 50%; 
+    padding: 5px; 
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 #cadeado {
-    width: 30px; /* Defina o tamanho desejado para a imagem */
-    height: auto; /* Isso manterá a proporção da imagem */
-    background-color: none; /* A mesma cor de fundo da sua div */
-    padding: 0; /* Remova qualquer preenchimento da imagem */
+    width: 30px; 
+    height: auto; 
+    background-color: none;
+    padding: 0;
 }
 .arrow-icon {
     cursor: pointer;
-    background-color: transparent; /* Define a cor de fundo como transparente */
-    border: none; /* Remove as bordas */
-    padding: 0; /* Remova qualquer preenchimento */
+    background-color: transparent;
+    border: none; 
+    padding: 0;
 }
 
 #seta {
-    width: 20px; /* Defina a largura desejada */
-    height: auto; /* Isso manterá a proporção da imagem */
+    width: 20px; 
+    height: auto;
 }
 
 
@@ -200,20 +200,19 @@ main{
     font-size: 14px;
 }
 
-/* Estilos para a barra de rolagem */
+
 .conversation-container::-webkit-scrollbar {
-    width: 6px; /* Largura da barra de rolagem */
+    width: 6px; 
 }
 
-/* Estilos para o polegar (a parte arrastável) da barra de rolagem */
+
 .conversation-container::-webkit-scrollbar-thumb {
-    background-color: #888; /* Cor do polegar da barra de rolagem */
-    border-radius: 3px; /* Raio de borda do polegar */
+    background-color: #888; 
+    border-radius: 3px;
 }
 
-/* Estilos para a área de fundo da barra de rolagem */
+
 .conversation-container::-webkit-scrollbar-track {
-    background-color: transparent; /* Cor de fundo da barra de rolagem */
-}
+    background-color: transparent; 
 
 

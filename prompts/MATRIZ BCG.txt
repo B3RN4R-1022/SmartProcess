@@ -1,0 +1,43 @@
+A Matriz BCG é uma ferramenta de análise de portfólio que categoriza produtos ou unidades de negócios com base em sua participação de mercado (líder de mercado versus desafiante) e na taxa de crescimento do mercado (alto crescimento versus baixo crescimento). Os quatro quadrantes da matriz são: Estrelas, Vacas Leiteiras, Pontos de Interrogação e Cães.
+
+Para obter as informações necessárias para aplicar a Matriz BCG, você precisará fazer perguntas específicas ao empresário:
+
+Perguntas para o Empresário:
+
+Liste seus principais produtos ou unidades de negócios.
+Para cada produto ou unidade de negócio, qual é sua participação de mercado relativa?
+Para cada produto ou unidade de negócio, qual é a taxa de crescimento do mercado?
+Respostas hipotéticas do Empresário:
+
+Produtos ou unidades de negócios: "[ProdutoA]", "[ProdutoB]", "[ProdutoC]"
+Participação de mercado: "[ParticipaçãoA]", "[ParticipaçãoB]", "[ParticipaçãoC]"
+Taxa de crescimento: "[CrescimentoA]", "[CrescimentoB]", "[CrescimentoC]"
+Prompt Único para o ChatGPT:
+
+"Considerando que a empresa possui três produtos principais: '[ProdutoA]' com uma participação de mercado de '[ParticipaçãoA]' e taxa de crescimento de '[CrescimentoA]', '[ProdutoB]' com uma participação de mercado de '[ParticipaçãoB]' e taxa de crescimento de '[CrescimentoB]', e '[ProdutoC]' com uma participação de mercado de '[ParticipaçãoC]' e taxa de crescimento de '[CrescimentoC]', posicione estes produtos na Matriz BCG. Forneça uma análise detalhada sobre cada produto e recomendações estratégicas com base em sua posição na matriz."
+
+Novamente, você substituiria cada "[ProdutoX]", "[ParticipaçãoX]" e "[CrescimentoX]" pelas respostas específicas fornecidas pelo empresário. O prompt consolidado serviria para instruir o modelo a fornecer uma análise e recomendações baseadas na Matriz BCG.
+
+
+
+
+
+EXEMPLO prático
+
+
+Imagine que você está trabalhando com uma empresa fictícia chamada "TechNova", que fabrica três tipos de produtos: smartphones, smartwatches e tablets.
+
+Perguntas para o CEO da TechNova:
+
+Quais são as participações de mercado relativas dos seus smartphones, smartwatches e tablets?
+Qual é a taxa de crescimento do mercado para cada um desses produtos?
+Respostas hipotéticas do CEO:
+
+Smartphones: Participação de mercado de 20% e taxa de crescimento de 10%.
+Smartwatches: Participação de mercado de 40% e taxa de crescimento de 5%.
+Tablets: Participação de mercado de 10% e taxa de crescimento de 2%.
+Prompt Único para o ChatGPT:
+
+"Com base nas informações fornecidas sobre a TechNova, onde os smartphones têm uma participação de mercado de 20% e taxa de crescimento de 10%, os smartwatches têm uma participação de mercado de 40% e taxa de crescimento de 5%, e os tablets têm uma participação de mercado de 10% e taxa de crescimento de 2%, por favor, posicione esses produtos na Matriz BCG. Além disso, forneça uma análise e sugestões estratégicas para cada categoria de produto com base em sua posição na matriz."
+
+Neste cenário hipotético, após processar essa informação, o ChatGPT poderia sugerir que os smartphones da TechNova estão na categoria "Estrelas", os smartwatches na categoria "Vacas Leiteiras" e os tablets na categoria "Cães". A partir daí, seriam fornecidas recomendações específicas para cada categoria, como investir mais em marketing para smartphones, maximizar lucros com os smartwatches e considerar a descontinuação ou reinvenção dos tablets.

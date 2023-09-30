@@ -1,0 +1,23 @@
+O Lean Startup é uma metodologia que visa desenvolver negócios e produtos de forma enxuta, minimizando o desperdício de recursos e maximizando o aprendizado por meio de ciclos de criação, medição e aprendizado. Uma das principais ideias é lançar um MVP (Produto Mínimo Viável) para testar hipóteses de negócios rapidamente no mercado real e iterar com base no feedback dos clientes.
+
+Perguntas Diretas para o Empresário:
+Hipóteses:
+Quais são as principais hipóteses sobre seu negócio ou produto que você gostaria de validar?
+MVP (Produto Mínimo Viável):
+Você já desenvolveu um MVP? Se sim, quais características ele possui?
+Que feedback você recebeu até agora sobre o seu MVP?
+Métricas-Chave:
+Quais métricas você considera cruciais para avaliar o sucesso do seu produto ou negócio?
+Como você planeja rastrear e avaliar essas métricas?
+Pivotar ou Perseverar:
+Com base no feedback e nas métricas, você considera necessário fazer uma mudança significativa (pivot) em sua abordagem ou continuar com a estratégia atual (perseverar)?
+Aprendizado Contínuo:
+Como você coleta feedback dos clientes e como isso informa seu processo de desenvolvimento?
+Existem áreas específicas nas quais você sente que precisa de mais aprendizado ou insights?
+
+Prompt de Análise para o ChatGPT:
+"Considerando a metodologia Lean Startup:
+Hipóteses: [Inserir resposta sobre as hipóteses do negócio] MVP: [Inserir informações sobre o MVP e o feedback recebido] Métricas-Chave: [Inserir métricas-chave e planos de avaliação] Pivotar ou Perseverar: [Inserir decisão sobre pivotar ou perseverar] Aprendizado Contínuo: [Inserir métodos de coleta de feedback e áreas de aprendizado]
+Por favor, avalie a abordagem atual da empresa em relação à metodologia Lean Startup, identificando áreas de força, potenciais lacunas ou áreas de melhoria, e sugira estratégias ou ajustes para otimizar a validação e o desenvolvimento do negócio/produto."
+
+Substitua cada [Inserir resposta...] com as informações fornecidas pelo empresário. Depois, use o prompt preenchido para obter uma análise profunda pelo ChatGPT.

@@ -1,0 +1,1 @@
+"Traduza o seguinte texto do idioma {idioma_origem} para o idioma {idioma_destino }: {texto}"

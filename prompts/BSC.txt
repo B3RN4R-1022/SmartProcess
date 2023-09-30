@@ -1,0 +1,56 @@
+O BSC é uma ferramenta estratégica que busca equilibrar objetivos e resultados em quatro perspectivas: financeira, clientes, processos internos e aprendizado e crescimento. Ele ajuda a traduzir a estratégia em objetivos operacionais que direcionam comportamentos e desempenho.
+
+
+Perguntas Diretas para o Empresário:
+
+
+Perspectiva Financeira:
+
+
+Quais são seus principais indicadores financeiros e metas?
+Como você busca aumentar a lucratividade e o retorno sobre o investimento?
+Perspectiva dos Clientes:
+
+
+Como você mede a satisfação e lealdade dos clientes?
+Quais são os segmentos de clientes mais valiosos e quais são suas necessidades e expectativas?
+Perspectiva dos Processos Internos:
+
+
+Quais são os principais processos que agregam valor ao cliente?
+Existem processos que precisam ser melhorados ou inovados?
+Perspectiva de Aprendizado e Crescimento:
+
+
+Como a empresa busca inovar e aprender?
+Quais são as competências e capacidades essenciais da equipe e como elas são desenvolvidas?
+Prompt de Análise para o ChatGPT:
+
+
+"Baseado no Balanced Scorecard da empresa:
+
+
+Perspectiva Financeira:
+
+
+Indicadores e metas: [Inserir resposta sobre indicadores financeiros]
+Estratégias de lucratividade: [Inserir resposta sobre estratégias financeiras]
+Perspectiva dos Clientes:
+
+
+Medidas de satisfação: [Inserir resposta sobre satisfação do cliente]
+Segmentos de clientes: [Inserir resposta sobre segmentos e suas necessidades]
+Perspectiva dos Processos Internos:
+
+
+Processos de valor: [Inserir resposta sobre processos chave]
+Melhorias necessárias: [Inserir resposta sobre processos a melhorar]
+Perspectiva de Aprendizado e Crescimento:
+
+
+Inovação e aprendizado: [Inserir resposta sobre estratégias de inovação]
+Competências da equipe: [Inserir resposta sobre capacidades e desenvolvimento da equipe]
+Por favor, forneça uma análise da situação atual da empresa nas quatro perspectivas, identificando áreas de destaque e oportunidades de melhoria, e sugerindo estratégias para alinhar melhor com os objetivos estratégicos."
+
+
+Como antes, substitua cada [Inserir resposta...] pela informação que o empresário fornecer e, depois, use o prompt preenchido para uma análise detalhada pelo ChatGPT.

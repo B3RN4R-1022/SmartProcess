@@ -1,0 +1,29 @@
+Análise PESTEL. 
+
+Obs: Esta ferramenta avalia os fatores Políticos, Econômicos, Sociais, Tecnológicos, Ambientais e Legais que podem influenciar o ambiente de negócios de uma organização.
+
+Perguntas Diretas para o Empresário:
+
+Políticos: Quais são os principais desafios políticos que sua empresa enfrenta atualmente?
+Econômicos: Como as tendências econômicas (como inflação, taxas de juros, crescimento econômico) afetam sua operação?
+Sociais: Quais tendências sociais ou demográficas estão impactando o seu negócio?
+Tecnológicos: Quais inovações tecnológicas ou disrupturas afetam ou podem afetar seu negócio?
+Ambientais: Existem preocupações ambientais ou sustentáveis que afetam sua operação ou imagem da empresa?
+Legais: Quais regulamentações ou leis têm maior impacto em sua empresa?
+
+
+
+Prompt de Análise para o ChatGPT:
+
+"Considerando o contexto da empresa nos diferentes domínios PESTEL:
+
+Políticos: [Inserir resposta sobre desafios políticos]
+Econômicos: [Inserir resposta sobre tendências econômicas]
+Sociais: [Inserir resposta sobre tendências sociais ou demográficas]
+Tecnológicos: [Inserir resposta sobre inovações tecnológicas]
+Ambientais: [Inserir resposta sobre questões ambientais ou sustentáveis]
+Legais: [Inserir resposta sobre regulamentações ou leis]
+
+Por favor, analise a situação da empresa, identificando oportunidades e ameaças em cada categoria PESTEL e sugerindo estratégias de adaptação ou mitigação para cada área."
+
+Substitua cada [Inserir resposta...] pela informação fornecida pelo empresário e, em seguida, apresente o prompt preenchido ao ChatGPT para uma análise aprofundada.

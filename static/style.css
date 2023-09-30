@@ -1,0 +1,219 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-color: #242424;
+    font-family: poppinsregular;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inside-group {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; /* Para centralizar horizontalmente */
+    align-items: center; /* Para centralizar verticalmente */
+}
+
+.link-box {
+    margin-top: 5%;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-box a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.messages {
+    background-color: #343444;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Adicione esta linha */
+}
+
+.chat-history {
+    flex-grow: 1;
+    max-width: 90vw;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #444454;
+    overflow-y: scroll;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.assistant-message {
+    color: white;
+    padding-left: 20px;
+    background-color: #343444;
+}
+
+.conversation-container{
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding: 10 10 10;
+    width: 98%;
+    height: 80%;
+}
+
+.input-group {
+    flex-shrink: 0;
+    background-color: #343444;
+    position: absolute;
+    bottom: 0px;
+    width: 100%; /* Alterado para 100% para ocupar toda a largura */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.input-style {
+    background-color: #44444c;   
+    width: 50%;
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.api-key-icon {
+    border:none;
+    border-radius: 50%; /* Isso tornará o botão redondo */
+    padding: 5px; /* Ajuste o preenchimento conforme necessário */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#cadeado {
+    width: 30px; /* Defina o tamanho desejado para a imagem */
+    height: auto; /* Isso manterá a proporção da imagem */
+    background-color: none; /* A mesma cor de fundo da sua div */
+    padding: 0; /* Remova qualquer preenchimento da imagem */
+}
+.arrow-icon {
+    cursor: pointer;
+    background-color: transparent; /* Define a cor de fundo como transparente */
+    border: none; /* Remove as bordas */
+    padding: 0; /* Remova qualquer preenchimento */
+}
+
+#seta {
+    width: 20px; /* Defina a largura desejada */
+    height: auto; /* Isso manterá a proporção da imagem */
+}
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+    width: 20%;
+    height: 100vh;
+    background-color: #242424;
+}
+.select-style {
+    margin: 1%;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: #444454;
+}
+
+.link-box {
+    margin-top: 5%;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+}
+
+.link-box a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.user-message {
+    color: white;
+    padding: 20px;
+    background-color: #444454;
+}
+
+.input-style {
+    width: 50%;
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Estilos para a barra de rolagem */
+.conversation-container::-webkit-scrollbar {
+    width: 6px; /* Largura da barra de rolagem */
+}
+
+/* Estilos para o polegar (a parte arrastável) da barra de rolagem */
+.conversation-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do polegar da barra de rolagem */
+    border-radius: 3px; /* Raio de borda do polegar */
+}
+
+/* Estilos para a área de fundo da barra de rolagem */
+.conversation-container::-webkit-scrollbar-track {
+    background-color: transparent; /* Cor de fundo da barra de rolagem */
+}
+
+

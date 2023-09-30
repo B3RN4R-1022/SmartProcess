@@ -1,0 +1,62 @@
+Análise de Cadeia de Valor
+
+
+Atividades Primárias:
+
+Quais são seus principais fornecedores e como você recebe os materiais?
+Descreva em um ou dois passos o processo de transformação do insumo ao produto.
+Como os produtos são entregues ao cliente final?
+Quais os principais canais de venda e estratégias de marketing?
+Como é feito o atendimento pós-venda?
+Atividades de Apoio:
+
+Qual sistema de gestão você utiliza?
+Como os funcionários são treinados e avaliados?
+Existe algum investimento em pesquisa e desenvolvimento?
+Quais critérios são usados para selecionar fornecedores?
+Prompt de Análise para o ChatGPT:
+
+"Considerando as atividades primárias da empresa:
+
+Fornecedores e recebimento: [Resposta sobre fornecedores e logística interna]
+Processo de produção: [Resposta sobre o processo de produção]
+Distribuição: [Resposta sobre logística externa]
+Canais de venda e marketing: [Resposta sobre marketing e vendas]
+Atendimento pós-venda: [Resposta sobre serviço]
+E suas atividades de apoio:
+
+Sistema de gestão: [Resposta sobre o sistema de gestão]
+Treinamento e avaliação: [Resposta sobre gestão de RH]
+P&D: [Resposta sobre pesquisa e desenvolvimento]
+Seleção de fornecedores: [Resposta sobre aquisições]
+Analise a Cadeia de Valor, identificando pontos fortes, áreas de melhoria e sugestões para otimização."
+
+O empresário deverá preencher cada [Resposta...] com informações breves e diretas. O prompt consolidado, em seguida, será usado para que o ChatGPT forneça uma análise detalhada com base nas informações fornecidas.
+
+
+
+
+
+
+
+
+
+
+EXEMPLO prático
+
+
+Esta ferramenta, desenvolvida por Michael Porter, é usada para identificar as atividades que agregam valor (e custo) a um negócio. Essas atividades são divididas em atividades primárias e atividades de apoio.
+
+Para ilustrar um exemplo mais efetivo e intuitivo, considere uma empresa fictícia chamada "CaféRápido", que é uma rede de cafeterias especializada em café expresso.
+
+Perguntas para o CEO da CaféRápido:
+
+Como você descreveria o processo de obtenção dos grãos de café, desde a compra até a venda final na cafeteria?
+Quais são as atividades de apoio essenciais, como gestão de recursos humanos, tecnologia da informação ou infraestrutura?
+Respostas hipotéticas do CEO:
+
+Compramos grãos de café diretamente de fazendeiros locais, os grãos são então torrados em nossa própria instalação, e após a torrefação, são distribuídos para nossas cafeterias onde são moídos e usados para fazer café para nossos clientes.
+Usamos um sistema avançado de TI para rastrear nossos pedidos e vendas, temos um departamento de RH dedicado para treinamento e desenvolvimento de funcionários, e temos uma equipe interna de design que planeja a infraestrutura e ambiente de cada cafeteria.
+Prompt Único para o ChatGPT:
+
+"Considerando que a CaféRápido compra grãos de café de fazendeiros locais, os torra em sua própria instalação e depois distribui para suas cafeterias onde são moídos e servidos, e também leva em conta o uso de um sistema avançado de TI, um departamento de RH para treinamento, e uma equipe de design para planejar as cafeterias, faça uma Análise de Cadeia de Valor detalhada. Identifique as principais atividades que agregam valor e sugira áreas de melhoria ou otimização."

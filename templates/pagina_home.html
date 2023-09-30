@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <title>Página HOME</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Prompts Disponíveis</h1>
+            <div class="prompt-grid">
+                {% for prompt_name, prompt_content in prompts.items() %}
+                <a href="{{ url_for('index') }}?prompt={{ prompt_content|urlencode }}" class="prompt-box">
+                    {{ prompt_name|replace('.txt', '') }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+</body>

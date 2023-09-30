@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css"></link>
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts.css') }}"></link>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"> </script>
+    <title>SMART PROCESS</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="chat-container">
+                <div class="link-box">
+                    <a href="pagina-home">HOME</a>
+                </div>
+                <div class="link-box">
+                    <a href="pagina-tab">TAB</a>
+                </div>
+                <div class="link-box">
+                    <a href="pagina-doc">DOC</a>
+                </div>
+                <div class="link-box">
+                    <a href="pagina-prompt">PROMPT</a>
+                </div>
+                <div class="link-box">
+                    <a href="pagina-ge">GE</a>
+                </div>
+            </div>
+            <div class="chat-history" id="chat-history">
+                <select class="select-style" id="prompt-selector">
+                    {% for prompt_name, prompt_content in prompts.items() %}
+                    <option value="{{ prompt_name }}">{{ prompt_name|replace('.txt', '') }}</option>
+                    {% endfor %}
+                </select>
+                <div class="conversation-container">
+                    <!-- Conteúdo da conversa será inserido aqui -->
+                </div>    
+                <div class="input-group">
+                    <div class="inside-group">
+                        <input type="text" class="input-style" id="user-input" placeholder="Digite sua mensagem...">
+                        <div class="input-button-container">
+                            <button class="arrow-icon" id="arrow-icon">
+                                <img id="seta" src="./image/arrow.png" alt="Arrow Icon">
+                            </button>
+                        </div>
+                    </div>
+                    <button class="api-key-icon" id="api-key-icon">
+                        <img id="cadeado" src="./image/cadeado.png" alt="API Key Icon">
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </main>      
+    
+</body>
+</html>

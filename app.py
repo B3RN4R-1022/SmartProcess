@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Configure a sua chave de API da OpenAIF
-openai.api_key = "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"
+openai.api_key = ""
 
 # Carrega os prompts de arquivos
 PROMPT_DIR = os.path.join(os.getcwd(), 'prompts')

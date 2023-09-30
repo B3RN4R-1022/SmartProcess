@@ -26,33 +26,33 @@ def servir_arquivo_fonte(font_file):
 def servir_imagem(nome_da_imagem):
     return send_from_directory('image', nome_da_imagem)
 
-# Rota para a página TAB
+
 @app.route('/pagina-tab')
 def pagina_tab():
     return render_template('pagina_tab.html')
 
-# Rota para a página DOC
+
 
 
 @app.route('/pagina-doc')
 def pagina_doc():
     return render_template('pagina_doc.html')
 
-# Rota para a página PROMP
+
 
 
 @app.route('/pagina-prompt')
 def pagina_prompt():
     return render_template('pagina_prompt.html')
 
-# Rota para a página GE
+
 
 
 @app.route('/pagina-ge')
 def pagina_ge():
     return render_template('pagina_ge.html')
 
-# Rota para a página HOME
+
 
 
 @app.route('/pagina-home')

@@ -51,9 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
         // Verifica se a tecla pressionada foi Enter e se não está pressionando a tecla Shift junto
         if (event.key === "Enter" && !event.shiftKey) {
             event.preventDefault(); // Evita a ação padrão do Enter (por exemplo, quebra de linha)
-            
-            // Aqui, chame a função que envia a mensagem
-            // Por exemplo, se você tem um botão que envia a mensagem quando clicado:
             submitButton.click();
         }
     });
